@@ -33,7 +33,9 @@ nav {
 @keyframes top {
   from {transform: rotate(0deg);}
 
-  to {transform: rotate(45deg);}
+  to {transform: rotate(45deg) translateY(35px);}
+
+  
   }
 
 
@@ -44,5 +46,6 @@ nav {
 
 @keyframes bottom {
   from {transform: rotate(0deg);}
-  to {transform: rotate(-45deg);}
+  to {transform: rotate(-45deg) translateY(-35px);}
 }
+
